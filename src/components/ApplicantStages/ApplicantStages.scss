@@ -1,5 +1,8 @@
+@import '../reset.scss';
+
 .flow {
   display: flex;
+  margin-bottom: 15px;
 }
 .stage {
   flex: 1;
@@ -22,8 +25,17 @@
 .active {
   color: red;
   box-shadow: 0 0 1px red;
+  background-color: rgba(255, 0, 0, 0.15);
 }
 .position {
   display: inline-block;
   margin-right: 10px;
+  vertical-align: middle;
+}
+.select {
+  display: inline-block;
+  vertical-align: middle;
+}
+.header {
+  margin-bottom: 15px;
 }

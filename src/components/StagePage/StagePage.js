@@ -15,19 +15,10 @@ import ApplicantStages from '../ApplicantStages';
 import StageComments from '../StageComments';
 
 class StagePage extends Component {
-
-  componentWillMount() {
-
-  }
-
   render() {
-    const comments = [];
-
-
     return (
       <div className={s.statePage}>
         <ApplicantStages title={this.props.title}/>
-        <h3>{this.props.title}</h3>
         <StageComments />
       </div>
     );

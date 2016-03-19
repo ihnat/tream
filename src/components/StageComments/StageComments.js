@@ -29,7 +29,9 @@ class StageComments extends Component {
           {items}
         </ul>
         <textarea className={s.textarea} />
-        <button className={s.addComment}>Add Comment</button>
+        <div style={{textAlign: 'right'}}>
+          <button className={s.addComment}>Add Comment</button>
+        </div>
       </div>
     );
   }

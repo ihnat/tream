@@ -33,7 +33,13 @@ class ApplicantStages extends Component {
 
     return (
       <div>
-        <h3>Head of Account Management</h3>
+        <h2 className={s.position}>Position:</h2>
+        <select>
+          <option>Head of Account Management</option>
+          <option>Data Center Support Specialis</option>
+          <option>Information Technology Manager</option>
+          <option>Technical Support Engineer</option>
+        </select>
         <div className={s.flow}>{stages}</div>
       </div>
     );

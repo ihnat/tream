@@ -9,10 +9,10 @@
 
 import React, { Component, PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './CanditatFlow.scss';
+import s from './ApplicantStages.scss';
 import Link from '../Link';
 
-class CanditatFlow extends Component {
+class ApplicantStages extends Component {
 
   componentWillMount() {
 
@@ -41,4 +41,4 @@ class CanditatFlow extends Component {
 
 }
 
-export default withStyles(CanditatFlow, s);
+export default withStyles(ApplicantStages, s);

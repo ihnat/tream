@@ -2,5 +2,5 @@
   "name": "ContactPage",
   "version": "0.0.0",
   "private": true,
-  "main": "./CanditatFlow.js"
+  "main": "./ApplicantStages.js"
 }

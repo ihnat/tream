@@ -11,7 +11,7 @@ import React, { Component, PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './StagePage.scss';
 import Link from '../Link';
-import CanditatFlow from '../CanditatFlow';
+import ApplicantStages from '../ApplicantStages';
 import StageComments from '../StageComments';
 
 class StagePage extends Component {
@@ -26,7 +26,7 @@ class StagePage extends Component {
 
     return (
       <div className={s.statePage}>
-        <CanditatFlow title={this.props.title}/>
+        <ApplicantStages title={this.props.title}/>
         <h3>{this.props.title}</h3>
         <StageComments />
       </div>

@@ -17,6 +17,7 @@ import LoginPage from './components/LoginPage';
 import RegisterPage from './components/RegisterPage';
 import NotFoundPage from './components/NotFoundPage';
 import ErrorPage from './components/ErrorPage';
+import StagePage from './components/StagePage';
 
 const router = new Router(on => {
   on('*', async (state, next) => {
@@ -25,6 +26,13 @@ const router = new Router(on => {
   });
 
   on('/contact', async () => <ContactPage />);
+
+  on('/sources', async () => <StagePage title="Sources" />);
+  on('/applied', async () => <StagePage title="Applied" />);
+  on('/phone_screen', async () => <StagePage title="Phone Screen" />);
+  on('/interview', async () => <StagePage title="Interview" />);
+  on('/offer', async () => <StagePage title="Offer" />);
+  on('/hired', async () => <StagePage title="Hired" />);
 
   on('/login', async () => <LoginPage />);
 

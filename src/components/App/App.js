@@ -11,6 +11,7 @@ import React, { Component, PropTypes } from 'react';
 import emptyFunction from 'fbjs/lib/emptyFunction';
 import s from './App.scss';
 import Header from '../Header';
+import CandidateList from '../CandidateList';
 import Feedback from '../Feedback';
 import Footer from '../Footer';
 
@@ -54,12 +55,31 @@ class App extends Component {
   }
 
   render() {
+    var candidateList = [
+      {
+        name: "Piotr Warsawski",
+        role: "Senior Rails Developer",
+        status: "Free"
+      },
+      {
+        name: "Kiril Pliashkevich",
+        role: "Teamlead",
+        status: "Free"
+      },
+      {
+        name: "Max Troicki",
+        role: "Front-end",
+        status: "Free"
+      }
+    ];
+
     return !this.props.error ? (
       <div>
         <Header />
         {this.props.children}
         <Feedback />
         <Footer />
+        <CandidateList candidateList={candidateList} />
       </div>
     ) : this.props.children;
   }

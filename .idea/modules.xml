@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/tream.iml" filepath="$PROJECT_DIR$/.idea/tream.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../filterProject/.idea/untitled.iml" filepath="$PROJECT_DIR$/../filterProject/.idea/untitled.iml" />
     </modules>
   </component>
 </project>

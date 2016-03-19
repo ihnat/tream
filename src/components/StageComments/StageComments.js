@@ -9,30 +9,31 @@
 
 import React, { Component, PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './StagePage.scss';
+import s from './StageComments.scss';
 import Link from '../Link';
-import CanditatFlow from '../CanditatFlow';
-import StageComments from '../StageComments';
+import StageComment from '../StageComment';
 
-class StagePage extends Component {
+class StageComments extends Component {
 
   componentWillMount() {
 
   }
 
   render() {
-    const comments = [];
 
+    var items = [5,4,3].map(v => <StageComment />);
 
     return (
-      <div className={s.statePage}>
-        <CanditatFlow title={this.props.title}/>
-        <h3>{this.props.title}</h3>
-        <StageComments />
+      <div>
+        <ul className={s.comments}>
+          {items}
+        </ul>
+        <textarea className={s.textarea} />
+        <button className={s.addComment}>Add Comment</button>
       </div>
     );
   }
 
 }
 
-export default withStyles(StagePage, s);
+export default withStyles(StageComments, s);

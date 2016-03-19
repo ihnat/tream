@@ -28,7 +28,7 @@ class CanditatFlow extends Component {
       {type: 'hired', count: 0}
     ].map(v => {
         var classNames = s.stage + (this.props.title.toLowerCase() == v.type ? " " + s.active : '');
-        return <Link to={v.type.replace(/\s/g, '_')} className={classNames}><span className={s.stageCount}>{v.count}</span> <span>{v.type.toUpperCase()}</span></Link>
+        return <Link to={"/" + v.type.replace(/\s/g, '_')} className={classNames}><span className={s.stageCount}>{v.count}</span> <span>{v.type.toUpperCase()}</span></Link>
     });
 
     return (

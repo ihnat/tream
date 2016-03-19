@@ -22,11 +22,11 @@ class Header extends Component {
           <Navigation className={s.nav} />
           <Link className={s.brand} to="/">
             <img src={require('./logo-small.png')} width="38" height="38" alt="React" />
-            <span className={s.brandTxt}>Your Company</span>
+            <span className={s.brandTxt}>Tream</span>
           </Link>
           <div className={s.banner}>
-            <h1 className={s.bannerTitle}>React</h1>
-            <p className={s.bannerDesc}>Complex web apps made easy</p>
+            <h1 className={s.bannerTitle}>Tream</h1>
+            <p className={s.bannerDesc}>Complex HR process made easy</p>
           </div>
         </div>
       </div>

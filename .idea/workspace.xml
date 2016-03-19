@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c75c5644-327e-47a3-ba6e-bb74800cff56" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/filterProject.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/tream.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header/Header.js" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tream.iws" />
@@ -35,27 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="client.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1458384197000" expanded="true" signature="621:644" placeholder="{...}" />
-                <marker date="1458384197000" expanded="true" signature="748:1072" placeholder="{...}" />
-                <marker date="1458384197000" expanded="true" signature="957:1007" placeholder="{...}" />
-                <marker date="1458384197000" expanded="true" signature="1530:2113" placeholder="{...}" />
-                <marker date="1458384197000" expanded="true" signature="1582:1596" placeholder="{...}" />
-                <marker date="1458384197000" expanded="true" signature="1635:1743" placeholder="{...}" />
-                <marker date="1458384197000" expanded="true" signature="2140:2622" placeholder="{...}" />
-                <marker date="1458384197000" expanded="true" signature="2392:2413" placeholder="{...}" />
-                <marker date="1458384197000" expanded="true" signature="3450:3508" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="error.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/error.jade">
           <provider selected="true" editor-type-id="text-editor">
@@ -137,14 +107,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.0232558">
+            <state vertical-scroll-proportion="0.0">
               <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.35234898">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -186,6 +166,7 @@
         <option value="$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.js" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -240,56 +221,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tream" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tream" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tream" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tream" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tream" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tream" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tream" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -407,12 +338,12 @@
       <option name="number" value="Default" />
       <updated>1458384270855</updated>
       <workItem from="1458384272696" duration="885000" />
-      <workItem from="1458385625972" duration="1891000" />
+      <workItem from="1458385625972" duration="2079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2776000" />
+    <option name="totallyTimeSpent" value="2964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="218" y="35" width="1201" height="758" extended-state="0" />
@@ -426,9 +357,9 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3123123" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3123123" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19327006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19327006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -465,15 +396,15 @@
           <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1458384197000" expanded="true" signature="621:644" placeholder="{...}" />
-            <marker date="1458384197000" expanded="true" signature="748:1072" placeholder="{...}" />
-            <marker date="1458384197000" expanded="true" signature="957:1007" placeholder="{...}" />
-            <marker date="1458384197000" expanded="true" signature="1530:2113" placeholder="{...}" />
-            <marker date="1458384197000" expanded="true" signature="1582:1596" placeholder="{...}" />
-            <marker date="1458384197000" expanded="true" signature="1635:1743" placeholder="{...}" />
-            <marker date="1458384197000" expanded="true" signature="2140:2622" placeholder="{...}" />
-            <marker date="1458384197000" expanded="true" signature="2392:2413" placeholder="{...}" />
-            <marker date="1458384197000" expanded="true" signature="3450:3508" placeholder="{...}" />
+            <marker date="1458384197000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1458384197000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1458384197000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1458384197000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1458384197000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1458384197000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1458384197000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1458384197000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1458384197000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -512,15 +443,15 @@
           <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1458384197000" expanded="true" signature="621:644" placeholder="{...}" />
-            <marker date="1458384197000" expanded="true" signature="748:1072" placeholder="{...}" />
-            <marker date="1458384197000" expanded="true" signature="957:1007" placeholder="{...}" />
-            <marker date="1458384197000" expanded="true" signature="1530:2113" placeholder="{...}" />
-            <marker date="1458384197000" expanded="true" signature="1582:1596" placeholder="{...}" />
-            <marker date="1458384197000" expanded="true" signature="1635:1743" placeholder="{...}" />
-            <marker date="1458384197000" expanded="true" signature="2140:2622" placeholder="{...}" />
-            <marker date="1458384197000" expanded="true" signature="2392:2413" placeholder="{...}" />
-            <marker date="1458384197000" expanded="true" signature="3450:3508" placeholder="{...}" />
+            <marker date="1458384197000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1458384197000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1458384197000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1458384197000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1458384197000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1458384197000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1458384197000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1458384197000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1458384197000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -622,11 +553,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0232558">
+        <state vertical-scroll-proportion="0.0">
           <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35234898">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>

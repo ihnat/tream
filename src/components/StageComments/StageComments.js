@@ -21,7 +21,7 @@ class StageComments extends Component {
 
   render() {
 
-    var items = [5,4,3].map(v => <StageComment />);
+    var items = [5,4,3].map((v, i) => <StageComment key={i} />);
 
     return (
       <div>

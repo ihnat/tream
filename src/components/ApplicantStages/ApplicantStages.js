@@ -26,9 +26,9 @@ class ApplicantStages extends Component {
       {type: 'interview', count: 1},
       {type: 'offer', count: 1},
       {type: 'hired', count: 0}
-    ].map(v => {
+    ].map((v, i) => {
         var classNames = s.stage + (this.props.title.toLowerCase() == v.type ? " " + s.active : '');
-        return <Link to={"/" + v.type.replace(/\s/g, '_')} className={classNames}><span className={s.stageCount}>{v.count}</span> <span>{v.type.toUpperCase()}</span></Link>
+        return <Link to={"/" + v.type.replace(/\s/g, '_')} className={classNames} key={i}><span className={s.stageCount}>{v.count}</span> <span>{v.type.toUpperCase()}</span></Link>
     });
 
     return (

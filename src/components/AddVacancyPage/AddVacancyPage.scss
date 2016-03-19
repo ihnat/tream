@@ -1,0 +1,27 @@
+.wrapper {
+  padding: 0 50px 50px;
+}
+.input, .textarea {
+  width: 100%;
+  border-radius: 4px;
+  padding: 3px 5px;
+  min-height: 32px;
+  box-sizing: border-box;
+  border: 1px solid #777;
+}
+.textarea {
+  min-height: 200px;
+}
+.form_row {
+  margin-bottom: 10px;
+}
+.label {
+  margin-bottom: 3px;
+  display: inline-block;
+}
+.add_row {
+  text-align: right;
+}
+.form {
+  width: 60%;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "AddVacancyPage",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AddVacancyPage.js"
+}

@@ -9,10 +9,10 @@
 
 import React, { Component, PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './CanditatFlow.scss';
+import s from './ApplicantStages.scss';
 import Link from '../Link';
 
-class CanditatFlow extends Component {
+class ApplicantStages extends Component {
 
   componentWillMount() {
 
@@ -26,14 +26,22 @@ class CanditatFlow extends Component {
       {type: 'interview', count: 1},
       {type: 'offer', count: 1},
       {type: 'hired', count: 0}
-    ].map(v => {
+    ].map((v, i) => {
         var classNames = s.stage + (this.props.title.toLowerCase() == v.type ? " " + s.active : '');
-        return <Link to={v.type.replace(/\s/g, '_')} className={classNames}><span className={s.stageCount}>{v.count}</span> <span>{v.type.toUpperCase()}</span></Link>
+        return <Link to={"/" + v.type.replace(/\s/g, '_')} className={classNames} key={i}><span className={s.stageCount}>{v.count}</span> <span>{v.type.toUpperCase()}</span></Link>
     });
 
     return (
       <div>
-        <h3>Head of Account Management</h3>
+        <div className={s.header}>
+          <h2 className={s.position}>Position:</h2>
+          <select className={s.select}>
+            <option>Head of Account Management</option>
+            <option>Data Center Support Specialis</option>
+            <option>Information Technology Manager</option>
+            <option>Technical Support Engineer</option>
+          </select>
+        </div>
         <div className={s.flow}>{stages}</div>
       </div>
     );
@@ -41,4 +49,4 @@ class CanditatFlow extends Component {
 
 }
 
-export default withStyles(CanditatFlow, s);
+export default withStyles(ApplicantStages, s);

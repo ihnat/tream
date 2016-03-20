@@ -11,15 +11,11 @@ import React, { Component, PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './StagePage.scss';
 import Link from '../Link';
-import CanditatFlow from '../CanditatFlow';
-import CandidateList from '../CanditatFlow';
+import ApplicantStages from '../ApplicantStages';
+import StageComments from '../StageComments';
+import CandidateList from '../CandidateList';
 
 class StagePage extends Component {
-
-  componentWillMount() {
-
-  }
-
   render() {
       var candidateList = [
           {
@@ -40,15 +36,15 @@ class StagePage extends Component {
       ];
 
     return (
-      <div>
-        <CanditatFlow title={this.props.title}/>
+      <div className={s.statePage}>
+        <ApplicantStages title={this.props.title}/>
         <h3>{this.props.title}</h3>
         <div>
           <div>
             <CandidateList candidateList={candidateList} />
           </div>
           <div>
-              RIGHT
+            <StageComments />
           </div>
 
         </div>

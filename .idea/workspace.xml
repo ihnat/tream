@@ -2,38 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9f50c52-6e0b-463f-9c5c-b4aa48f85394" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CandidateList/logo-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CandidateList/logo-small@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CandidateListItem/logo-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CandidateListItem/logo-small@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CandidateList/CandidateList.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CandidateList/CandidateList.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CandidateList/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CandidateListItem/CandidateListItem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CandidateListItem/CandidateListItem.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CandidateListItem/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CanditatFlow/CanditatFlow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CanditatFlow/CanditatFlow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CanditatFlow/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/StagePage/StagePage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/StagePage/StagePage.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/StagePage/package.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/filterProject.iml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/tream.iml" afterPath="$PROJECT_DIR$/tream.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/front.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/AddVacancyPage/AddVacancyPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/AddVacancyPage/AddVacancyPage.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/AddVacancyPage/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ApplicantStages/ApplicantStages.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ApplicantStages/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/StageComment/StageComment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/StageComment/StageComment.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/StageComment/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/StageComments/StageComments.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/StageComments/StageComments.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/StageComments/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/reset.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/CanditatFlow/CanditatFlow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/CanditatFlow/package.json" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/CanditatFlow/CanditatFlow.js" afterPath="$PROJECT_DIR$/src/components/ApplicantStages/ApplicantStages.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App/App.js" afterPath="$PROJECT_DIR$/src/components/App/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header/Header.js" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App/App.scss" afterPath="$PROJECT_DIR$/src/components/App/App.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ContactPage/ContactPage.scss" afterPath="$PROJECT_DIR$/src/components/ContactPage/ContactPage.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ContentPage/ContentPage.scss" afterPath="$PROJECT_DIR$/src/components/ContentPage/ContentPage.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/StagePage/StagePage.js" afterPath="$PROJECT_DIR$/src/components/StagePage/StagePage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/StagePage/StagePage.scss" afterPath="$PROJECT_DIR$/src/components/StagePage/StagePage.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/content/index.jade" afterPath="$PROJECT_DIR$/src/content/index.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes.js" afterPath="$PROJECT_DIR$/src/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tream.iml" afterPath="$PROJECT_DIR$/tream.iml" />
     </list>
     <ignored path="tream.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,9 +59,10 @@
         <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <marker date="1458462276000" expanded="true" signature="1748:1781" placeholder="&lt;xml/&gt;" />
               </folding>
             </state>
           </provider>
@@ -79,8 +81,20 @@
       <file leaf-file-name="StagePage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/StagePage/StagePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="45" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="45" />
+            <state vertical-scroll-proportion="-5.6296296">
+              <caret line="39" column="24" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicantStages.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ApplicantStages/ApplicantStages.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="11.666667">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -91,20 +105,8 @@
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.5104167">
-              <caret line="31" column="50" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="50" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CanditatFlow.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/CanditatFlow/CanditatFlow.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.5226481">
+              <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -122,6 +124,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/components/App/App.js" />
         <option value="$PROJECT_DIR$/src/components/StagePage/StagePage.js" />
+        <option value="$PROJECT_DIR$/src/routes.js" />
       </list>
     </option>
   </component>
@@ -242,7 +245,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="731" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -250,7 +253,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4648986" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46645865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -277,6 +280,7 @@
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <marker date="1458462276000" expanded="true" signature="1748:1781" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>
@@ -303,16 +307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CanditatFlow/CanditatFlow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="18" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -330,17 +324,18 @@
     <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <marker date="1458462276000" expanded="true" signature="1748:1781" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CanditatFlow/CanditatFlow.js">
+    <entry file="file://$PROJECT_DIR$/src/components/ApplicantStages/ApplicantStages.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="18" />
+        <state vertical-scroll-proportion="11.666667">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -349,8 +344,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/StagePage/StagePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="45" />
+        <state vertical-scroll-proportion="-5.6296296">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="24" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -359,8 +354,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5104167">
-          <caret line="31" column="50" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.5226481">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

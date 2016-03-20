@@ -1,0 +1,41 @@
+@import '../reset.scss';
+
+.flow {
+  display: flex;
+  margin-bottom: 15px;
+}
+.stage {
+  flex: 1;
+  text-align: center;
+  font-weight: 700;
+  box-shadow: 0 0 1px #5e5656;
+  line-height: 40px;
+  font-size: 12px;
+  color: #5e5656;
+  transition: all .3s ease;
+  text-decoration: none;
+}
+.stage:hover {
+  background-color: rgba(204, 204, 204, 0.41);
+  box-shadow: rgba(204, 204, 204, 0.41);
+}
+.stageCount {
+  font-size: 16px;
+}
+.active {
+  color: red;
+  box-shadow: 0 0 1px red;
+  background-color: rgba(255, 0, 0, 0.15);
+}
+.position {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.select {
+  display: inline-block;
+  vertical-align: middle;
+}
+.header {
+  margin-bottom: 15px;
+}

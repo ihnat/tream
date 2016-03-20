@@ -18,6 +18,7 @@ import RegisterPage from './components/RegisterPage';
 import NotFoundPage from './components/NotFoundPage';
 import ErrorPage from './components/ErrorPage';
 import StagePage from './components/StagePage';
+import AddVacancyPage from './components/AddVacancyPage';
 
 const router = new Router(on => {
   on('*', async (state, next) => {
@@ -27,9 +28,10 @@ const router = new Router(on => {
 
   on('/contact', async () => <ContactPage />);
 
+  on('/add_vacancy', async () => <AddVacancyPage />);
   on('/sources', async () => <StagePage title="Sources" />);
   on('/applied', async () => <StagePage title="Applied" />);
-  on('/phone_screen', async () => <StagePage title="Phone Screen" />);
+  on('/phone_screen', async () => <StagePage titleg="Phone Screen" />);
   on('/interview', async () => <StagePage title="Interview" />);
   on('/offer', async () => <StagePage title="Offer" />);
   on('/hired', async () => <StagePage title="Hired" />);

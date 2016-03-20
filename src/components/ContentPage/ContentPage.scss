@@ -7,14 +7,27 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
+@import '../reset.scss';
 @import '../variables.scss';
 
 .root {
-
+  text-align: center;
+  color: #fff;
+  background: none;
+  font-size: 18px;
+  padding-top: 8%;
 }
 
 .container {
   margin: 0 auto;
-  padding: 0 0 40px;
-  max-width: $max-content-width;
+}
+
+.root h2 {
+  font-size: 70px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  margin-bottom: 7px;
+}
+.root h3 {
+  font-weight: normal;
 }

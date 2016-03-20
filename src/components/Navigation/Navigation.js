@@ -22,6 +22,7 @@ class Navigation extends Component {
   render() {
     return (
       <div className={cx(s.root, this.props.className)} role="navigation">
+        <Link className={s.link} to="/add_vacancy">Add Vacancy</Link>
         <Link className={s.link} to="/sources">Manage</Link>
       </div>
     );

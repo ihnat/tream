@@ -1,0 +1,34 @@
+@import '../reset.scss';
+
+.wrapper {
+  background: #FAFAFA;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.input, .textarea {
+  width: 100%;
+  border-radius: 4px;
+  padding: 3px 5px;
+  min-height: 32px;
+  box-sizing: border-box;
+  border: 1px solid #777;
+}
+.textarea {
+  min-height: 200px;
+}
+.form_row {
+  margin-bottom: 10px;
+}
+.label {
+  margin-bottom: 3px;
+  display: inline-block;
+}
+.add_row {
+  text-align: right;
+}
+.form {
+  width: 60%;
+}

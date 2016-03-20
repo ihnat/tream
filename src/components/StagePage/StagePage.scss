@@ -1,21 +1,10 @@
-.flow {
-  display: flex;
-}
-.stage {
-  flex: 1;
-  text-align: center;
-  font-weight: 700;
-  box-shadow: 0 0 1px;
-  line-height: 40px;
-  font-size: 12px;
-  color: #5e5656;
-  transition: all .3s ease;
-  text-decoration: none;
-}
-.stage:hover {
-  background-color: rgba(204, 204, 204, 0.41)
-}
-.stageCount {
-  font-size: 16px;
-}
+@import '../reset.scss';
 
+.statePage {
+  background: #FAFAFA;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}

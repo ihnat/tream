@@ -1,0 +1,6 @@
+{
+  "name": "StageComment",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./StageComment.js"
+}

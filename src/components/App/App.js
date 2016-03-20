@@ -14,7 +14,7 @@ import Header from '../Header';
 import CandidateList from '../CandidateList';
 import Feedback from '../Feedback';
 import Footer from '../Footer';
-import CanditatFlow from '../CanditatFlow';
+import ApplicantStages from '../ApplicantStages';
 
 class App extends Component {
 
@@ -60,8 +60,9 @@ class App extends Component {
     return !this.props.error ? (
       <div>
         <Header />
-        {this.props.children}
-        <Feedback />
+        <div className={s.wrapper}>
+          {this.props.children}
+        </div>
         <Footer />
       </div>
     ) : this.props.children;

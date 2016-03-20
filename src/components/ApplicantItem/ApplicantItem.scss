@@ -1,0 +1,29 @@
+.item {
+  border-bottom: 1px solid;
+  clear: both;
+  overflow: hidden;
+}
+
+.img {
+  float: left;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+.name {
+  font-weight: 700;
+  display: block;
+}
+.position {
+  display: block;
+}
+.item a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  display: block;
+  transition: all .3s;
+  overflow: hidden;
+}
+.item a:hover {
+  background-color: #d2d2d2;
+}

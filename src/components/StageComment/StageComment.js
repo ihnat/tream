@@ -23,7 +23,7 @@ class StageComment extends Component {
     return (
       <li className={s.li}>
         <div className={s.head}>
-          <img src="http://www.avatarpro.biz/avatar?s=35" style={{float: 'left'}} />
+          <img src={this.props.person.img} style={{float: 'left'}} width="35" />
           <div>
             <span className={s.name}>Eduardo Vallento </span>
             <span>added a comment </span>

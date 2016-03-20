@@ -1,0 +1,33 @@
+@import '../reset.scss';
+
+.statePage {
+  background: #FAFAFA;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.header {
+  margin-left: 110px;
+}
+.title {
+  margin-bottom: 25px;
+}
+.img {
+  float: left;
+  margin: 4px 10px 20px 0;
+}
+.point {
+  clear: both;
+  margin-bottom: 25px;
+  width: 80%;
+  margin-left: 110px;
+}
+.want_position {
+  font-weight: bold;
+}
+.list {
+  list-style: disc;
+  list-style-position: inside;
+}

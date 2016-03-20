@@ -32,3 +32,17 @@
 .form {
   width: 60%;
 }
+.button {
+  display: inline-block;
+  width: 100px;
+  padding: 4px 0;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #333;
+  border-radius: 2px;
+  color: #333;
+  transition: all .3s;
+}
+.button:hover {
+  background-color: #e5e5e5;
+}

@@ -22,7 +22,23 @@ class StageComments extends Component {
 
   render() {
 
-    var items = [5,4,3].map((v, i) => <StageComment key={i} />);
+    var items =  [{
+      name: 'Silas Lenny',
+      position: 'Head of Account Management',
+      img: require('../../public/ava1.jpg')
+    }, {
+      name: 'Riley Justin',
+      position: 'Data Center Support Specialis',
+      img: require('../../public/ava2.jpg')
+    }, {
+      name: 'Thad Goddard',
+      position: 'Information Technology Manager',
+      img: require('../../public/ava3.jpg')
+    }, {
+      name: 'Ryan Easton',
+      position: 'Technical Support Engineer',
+      img: require('../../public/ava4.jpg')
+    }].map((v, i) => <StageComment person={v} key={i} />);
 
     return (
       <div>

@@ -22,17 +22,20 @@ class StagePage extends Component {
           {
               name: "Piotr Warsawski",
               role: "Senior Rails Developer",
-              status: "Free"
+              status: "Free",
+              pic: require('../../public/pic1.jpeg')
           },
           {
               name: "Kiril Pliashkevich",
               role: "Teamlead",
-              status: "Free"
+              status: "Free",
+              pic: require('../../public/pic2.jpeg')
           },
           {
               name: "Max Troicki",
               role: "Front-end",
-              status: "Free"
+              status: "Free",
+              pic: require('../../public/pic3.jpeg')
           }
       ];
 
@@ -48,7 +51,6 @@ class StagePage extends Component {
             <SmallProfile />
             <StageComments />
           </div>
-
         </div>
       </div>
     );

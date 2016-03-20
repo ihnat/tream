@@ -21,8 +21,8 @@ class CandidateListItem extends Component {
 
     return (
         <li className={s.userListItem}>
-          <div className={s.userList__pic}>
-            <img src={require('./logo-small.png')} width="38" height="38" alt="React" />
+          <div className={s.userListItem__pic}>
+            <img src={candidate.pic} width="38" height="38" alt="React" />
           </div>
           <div className={s.userListItem__block}>
             <Link to="/" className={s.userListItem__name}>{candidate.name}</Link>

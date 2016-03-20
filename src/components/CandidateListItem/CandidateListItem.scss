@@ -70,7 +70,11 @@ $brand-color: #61dafb;
   flex-direction: row;
   border-top: 1px solid lightgrey;
   &__pic {
-
+    img {
+      border-radius: 50%;
+      border: 2px solid grey;
+      overflow: hidden;
+    }
   }
   &__block {
     display: flex;

@@ -16,11 +16,12 @@ $brand-color: #61dafb;
     display: flex;
     justify-content: flex-end;
     a {
-      background: blue;
+      background: grey;
       color: #fff;
-      padding: 4px 7px;
+      padding: 2px 7px;
       border: 1px solid #000;
       border-radius: 3px;
+      margin-left: 4px;
     }
   }
 

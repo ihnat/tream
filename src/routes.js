@@ -31,7 +31,7 @@ const router = new Router(on => {
   on('/add_vacancy', async () => <AddVacancyPage />);
   on('/sources', async () => <StagePage title="Sources" />);
   on('/applied', async () => <StagePage title="Applied" />);
-  on('/phone_screen', async () => <StagePage titleg="Phone Screen" />);
+  on('/phone_screen', async () => <StagePage title="Phone Screen" />);
   on('/interview', async () => <StagePage title="Interview" />);
   on('/offer', async () => <StagePage title="Offer" />);
   on('/hired', async () => <StagePage title="Hired" />);

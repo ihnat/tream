@@ -14,6 +14,7 @@ import Link from '../Link';
 import ApplicantStages from '../ApplicantStages';
 import StageComments from '../StageComments';
 import CandidateList from '../CandidateList';
+import SmallProfile from '../SmallProfile';
 
 class StagePage extends Component {
   render() {
@@ -39,11 +40,12 @@ class StagePage extends Component {
       <div className={s.statePage}>
         <ApplicantStages title={this.props.title}/>
         <h3>{this.props.title}</h3>
-        <div>
-          <div>
+        <div className={s.statePage__main}>
+          <div className={s.statePage__left}>
             <CandidateList candidateList={candidateList} />
           </div>
-          <div>
+          <div className={s.statePage__right}>
+            <SmallProfile />
             <StageComments />
           </div>
 

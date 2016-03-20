@@ -12,6 +12,7 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './StageComments.scss';
 import Link from '../Link';
 import StageComment from '../StageComment';
+import DisqusThread from '../DisqusThread';
 
 class StageComments extends Component {
 
@@ -25,6 +26,7 @@ class StageComments extends Component {
 
     return (
       <div>
+
         <ul className={s.comments}>
           {items}
         </ul>

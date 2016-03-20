@@ -1,0 +1,37 @@
+@import '../reset.scss';
+
+.statePage {
+  background: #FAFAFA;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.wrapper {
+  overflow: hidden;
+}
+.column {
+  float: left;
+}
+.column:first-child {
+  width: 80%;
+}
+.column:last-child {
+  width: 20%;
+}
+.point {
+  margin-bottom: 30px;
+}
+.point_header {
+  margin-bottom: 10px;
+}
+.logo {
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.logo + div {
+  display: inline-block;
+  vertical-align: top;
+}

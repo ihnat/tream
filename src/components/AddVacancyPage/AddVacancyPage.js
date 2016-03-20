@@ -20,7 +20,7 @@ class AddVacancyPage extends Component {
                 <form className={s.form}>
                     <div className={s.form_row}><label className={s.label}>Position:</label><div><input placeholder="Type a text here" type="text" className={s.input}/></div></div>
                     <div className={s.form_row}><label className={s.label}>Description:</label><div><textarea placeholder="Type a text here" className={s.textarea}/></div></div>
-                    <div className={s.add_row}><button>add</button></div>
+                    <div className={s.add_row}><Link to="/vacancy" className={s.button}>Add</Link></div>
                 </form>
             </div>
         );

@@ -20,6 +20,8 @@ import ErrorPage from './components/ErrorPage';
 import StagePage from './components/StagePage';
 import AddVacancyPage from './components/AddVacancyPage';
 import Vacancy from './components/Vacancy';
+import ApplicantList from './components/ApplicantList';
+import Applicant from './components/Applicant';
 
 const router = new Router(on => {
   on('*', async (state, next) => {
@@ -30,6 +32,8 @@ const router = new Router(on => {
   on('/contact', async () => <ContactPage />);
 
   on('/add_vacancy', async () => <AddVacancyPage />);
+  on('/applicant_list', async () => <ApplicantList />);
+  on('/applicant', async () => <Applicant />);
   on('/vacancy', async () => <Vacancy />);
   on('/sources', async () => <StagePage title="Sources" />);
   on('/applied', async () => <StagePage title="Applied" />);

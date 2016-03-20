@@ -18,7 +18,7 @@ $brand-color: #61dafb;
 
 .container {
   margin: 0 auto;
-  padding: 5px 0;
+  padding: 20px 0;
   max-width: $max-content-width;
 }
 
@@ -54,4 +54,37 @@ $brand-color: #61dafb;
   color: rgba(255, 255, 255, .5);
   font-size: 1.25em;
   margin: 0;
+}
+
+.userList {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.userListItem {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid lightgrey;
+  &__pic {
+
+  }
+  &__block {
+    display: flex;
+    flex-direction: column;
+  }
+  &__name {
+
+  }
+  &__role {
+    margin: 0;
+    font-size: 1rem;
+  }
+  &__status {
+    font-size: 1rem;
+
+  }
 }

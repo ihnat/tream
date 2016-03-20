@@ -9,26 +9,37 @@
 
 import React, { Component } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './Header.scss';
+import s from './CandidateList.scss';
 import Link from '../Link';
+import CandidateListItem from '../CandidateListItem';
 import Navigation from '../Navigation';
 
-class Header extends Component {
+class CandidateList extends Component {
 
   render() {
+
+    var CandidateListItemNodes = this.props.candidateList.map(function(candidate) {
+      return (
+        <CandidateListItem candidate={candidate} />
+      )
+    });
+
     return (
-      <div className={s.root}>
         <div className={s.container}>
           <Navigation className={s.nav} />
           <Link className={s.brand} to="/">
             <img src={require('./logo-small.png')} width="38" height="38" alt="React" />
             <span className={s.brandTxt}>Tream</span>
           </Link>
+          <ul className={s.userList}>
+
+            {CandidateListItemNodes}
+
+          </ul>
         </div>
-      </div>
     );
   }
 
 }
 
-export default withStyles(Header, s);
+export default withStyles(CandidateList, s);

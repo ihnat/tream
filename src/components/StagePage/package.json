@@ -1,0 +1,6 @@
+{
+  "name": "StagePage",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./StagePage.js"
+}
